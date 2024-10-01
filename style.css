@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto';
 }
 
 ul {
@@ -50,7 +51,6 @@ li {
     display: flex;
     flex-direction: column;
     /* border: dashed red; */
-    max-width: 600px;
     margin-left: 100px
 }
 
@@ -58,7 +58,8 @@ li {
     display: flex;
     align-items: center;
     /* border: dashed red; */
-    width: 500px;
+    width: 700px;
+    min-width: 250px;
     height: auto;
     justify-content: center;
     background-color: #bac6d5;
@@ -82,7 +83,6 @@ h2 {
     color: #e5e7eb;
     font-size: 18px;
     margin-top: 0;
-    margin-bottom: 0;
 }
 
 button {
@@ -94,4 +94,109 @@ button {
     width: 78px;
     height: 24px;
     margin-top: 10px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #1F2937;
+    /* border: dashed red; */
+} 
+
+.body-cont {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    border: #3882f6 5px solid;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.img-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0px;
+    max-width: 150px;
+    margin: 10px;
+}
+
+.imgtext {
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 1% 25%;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+
+.quote-text {
+    margin-top: 0;
+    text-align: right;
+    margin-right: 5%;
+}
+
+.quoter {
+    margin-top: 0;
+    text-align: right;
+    margin-right: 5%;
+}
+
+.quote-text,
+.quoter {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    background-color: #3882f6;
+    color: #F9F8F1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+/*     max-width: 500px; */
+    margin: 5% 20%;
+    padding: 20px;
+    align-items: center;
+}
+
+.footertext {
+    display: flex;
+    flex-direction: column;
+}
+
+p,
+.urine {
+    margin: 0;
+}
+
+.utwo {
+    font-weight: bolder;
+}
+
+.footbutt {
+    border: #F9F8F1 2px solid;
+}
+
+.realfoot {
+    background-color: #1F2937;
+    color: #F9F8F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    
 }
